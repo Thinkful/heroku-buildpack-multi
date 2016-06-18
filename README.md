@@ -1,7 +1,7 @@
 # Heroku buildpack: multi
 
 This is a [Heroku buildpack](http://devcenter.heroku.com/articles/buildpacks) that
-allows one to multiple other buildpacks in a single deploy process. This helps support:
+allows one to run multiple (external) buildpacks in a single deploy process. This helps support:
 
 1. Running multiple language buildpacks such as JS for assets and Ruby for your application
 2. Running a daemon process such as [pgbouncer](https://github.com/heroku/heroku-buildpack-pgbouncer) with your application
